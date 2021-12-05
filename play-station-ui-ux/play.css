@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Teko', sans-serif;
+}
+h1{
+    background-color: yellow;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 img{
+    width: 50px;
+    margin-left: 20px;
+}
+.play-station-desktop{
+    margin-top: 30px;
+    width: 80vw;
+    align-items: center;
+}
+.play-images{
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+    .play-station-desktop{
+        width: 100vw;
+    }
+    .play-station-mobile{
+        width: 80vw;
+    }
+}

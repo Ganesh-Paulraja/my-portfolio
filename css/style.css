@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;   
+    background-color: rgb(253, 253, 169); 
+}
+body{
+    letter-spacing: 1px;
+    overflow-x: hidden;
+}
+.ui-ux-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.uis{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+.uis .box{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    background-color: yellow;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+h2{
+    margin: 20px;
+}
+section{
+   padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+h2 img{
+    width: 50px;
+    margin-left: 20px;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.727);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid black;
+    
+    color: black;
+}
+.box:hover{
+    background-color: gray;
+    border: 1px solid green;
+}
+.html-css-js-img{
+    margin-right: 20px;
+    width: 80px;
+}
+.venila-webs{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.venila-webs a{
+    margin-left: 20px;
+}
+.bootstrap{
+    width: 100vw;
+}
+.bootstrap a{
+    display: flex;
+    justify-content: center;
+}
+.react-app{
+    text-align: center;
+}
+.react-app-order{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+
+}
+.react-img{
+    width: 80px;
+    height: 60px;
+}
+.mern-img{
+    width: 100px;
+    height: 60px;
+}
+@media screen and (max-width: 700px) {
+    h2{
+        font-size: 20px;
+    }
+    h2 img{
+        margin-left: 5px;
+    }
+}
